@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<StackPane fx:id="mainStack" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.tvz.defense.tower.towerdefense.towerdefense.LevelOneController">
+   <children>
+     <GridPane fx:id="myGridPane" gridLinesVisible="true" prefHeight="700.0" prefWidth="1000.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="90.909" minWidth="90.909" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="90.909" minWidth="90.909" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="90.909" minWidth="90.909" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="90.909" minWidth="90.909" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="90.909" minWidth="90.909" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="90.909" minWidth="90.909" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="90.909" minWidth="90.909" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="90.909" minWidth="90.909" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="90.909" minWidth="90.909" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="90.909" minWidth="90.909" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="90.909" minWidth="90.909" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="80" minHeight="70.0" prefHeight="70" vgrow="ALWAYS" />
+          <RowConstraints maxHeight="80" minHeight="70.0" prefHeight="70" vgrow="ALWAYS" />
+          <RowConstraints maxHeight="80" minHeight="70.0" prefHeight="70" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="80" minHeight="70.0" prefHeight="70" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="80" minHeight="70.0" prefHeight="70" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="80" minHeight="70.0" prefHeight="70" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="80" minHeight="70.0" prefHeight="70" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="80" minHeight="70.0" prefHeight="70" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="80" minHeight="70.0" prefHeight="70" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="80" minHeight="70.0" prefHeight="70" vgrow="ALWAYS" />
+        </rowConstraints>
+     </GridPane>
+     <Pane fx:id="panee" layoutX="800" layoutY="200">
+       <fx:include fx:id="child" source="../UI/towers_panel.fxml" />
+     </Pane>
+   </children>
+</StackPane>
